@@ -1,0 +1,92 @@
+/*#mainContainer{
+   
+    background-image: url("/Images/pexels-min-an-853168.jpg"); 
+}
+#imgContainer{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 20px;
+    left: 360px;
+} 
+#bgContainer{
+    width: 1900px;
+    height: 690px;
+    filter: blur(6px);
+    -webkit-filter: blur(4px);
+}
+#logInContainer{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 135px;
+    left: 470px;
+    background-color: rgb(245, 245, 245, 0.3);
+    margin: auto;
+}
+#heading{
+    margin: 30px;
+   
+}
+#userName{
+    margin-top: 50px;
+}
+#username{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin: 30px; 
+    margin-left: 100px;
+}
+#passWord{
+    margin-top: 40px;
+} */
+/* #password{
+    width: 290px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+#submit{
+    width: 150px;
+    height: 50px;
+    margin-left: 160px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: chocolate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}  */
+#mainContainer{
+    background-color: #161e31;
+    max-height: 100%;
+}
+#logInContainer{
+    background-color: #2d3250;
+    display: grid;
+    align-items: center;
+}
+#imgContainer{
+    /* width: 500px;
+    height: 500px; */
+    opacity: 70%;
+}
+#login{
+    margin-top: 225px;
+}
+#buttonDiv{
+    margin-top: 25px;
+}
+#logo{
+    width: 257px;
+    height: 100px;
+    position: absolute;
+    top: 60px;
+    left: 380px;
+    opacity: 80%;
+    border-radius: 45px;
+
+}
+
+
+

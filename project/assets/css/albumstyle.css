@@ -1,0 +1,79 @@
+
+#logo{
+    width: 255px;
+    height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+#welcome{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    font-family: poppins;
+}
+#welcome_title{
+    text-align: right;
+    margin-top: 75px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+#top_banner{
+    width: 100%;
+    height: 230px;
+    background-image: url("../images/backgroundbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+    max-width: 447px;
+    padding: 26px 30px;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+#gallery_title{
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+    font-size: 40px;
+}
