@@ -250,6 +250,11 @@ function checkUser() {
       username: "manivarma",
       password: "20bci053",
     },
+    {
+      name: "Dhana Amma",
+      username: "dhanalakshmi",
+      password: "20bci055",
+    },
   ];
    
   var uName=document.getElementById("username").value;
@@ -258,15 +263,8 @@ function checkUser() {
 
 
   if(uName!=""&&pWord!=""){
-    // 1) take the length of array-done
-    // 2) create a for loop with above length and array-done
-    // 3) inside a for loop create another if condition-done
-    // 4) condition([array username==uName&& array password==pWord ])-done
-    // 5) if condition true means set a localstorage variable(username)-done
-    // 6) window.redirect to album page-done
     var uNameLen=users.length;
     for(var i=0;i<uNameLen;i++){
-        //console.log(users[i]);
         if(users[i].username==uName&&users[i].password==pWord){
             console.log("valid");
             sessionStorage.setItem("currentUser",users[i].name);
